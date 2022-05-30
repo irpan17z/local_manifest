@@ -5,7 +5,7 @@
  <remote name="putraaxyzo" fetch="https://github.com/putraaxyzo" />
 
  <!-- Trees -->
- <project path="device/xiaomi/juice" name="device_xiaomi_blaze" remote="putraaxyzo" revision="12.1-aosp" clone-depth="1" />
+ <project path="device/xiaomi/juice" name="test_tree" remote="putraaxyzo" revision="12.1-prebuilt" clone-depth="1" />
  <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="putraaxyzo" revision="snow" clone-depth="1" />
  <project path="kernel/xiaomi/juice" name="guuji-kernel-juice" remote="putraaxyzo" revision="twelve" clone-depth="1" />
  
