@@ -2,14 +2,15 @@
 <manifest>
 
 <!-- Remote -->
- <remote name="putraaxyzo" fetch="https://github.com/putraaxyzo" />
+ <remote name="irpan17z" fetch="https://github.com/irpan17z" />
+ <!--<remote name="kdrag0n" fetch="https://github.com/kdrag0n" />-->
 
- <!-- Trees -->
- <project path="device/xiaomi/juice" name="test_tree" remote="putraaxyzo" revision="12.1-prebuilt" clone-depth="1" />
- <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="putraaxyzo" revision="snow" clone-depth="1" />
- <project path="kernel/xiaomi/juice" name="guuji-kernel-juice" remote="putraaxyzo" revision="twelve" clone-depth="1" />
+ <!-- Device Trees -->
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="irpan17z" revision="12.1-evox" clone-depth="1" />
+ <project path="vendor/xiaomi/mido" name="proprietary_vendor_xiaomi" remote="irpan17z" revision="lineage-19.1" clone-depth="1" />
+ <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="irpan17z" revision="lineage-19.1" clone-depth="1" />
  
 <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="putraaxyzo" revision="master" clone-depth="1" />
+ <!--<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
 
 </manifest>
